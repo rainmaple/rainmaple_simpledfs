@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="distri_websever:war exploded">
+    <output-path>$PROJECT_DIR$/distri_websever/target/distri_web-sever</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="distri_websever" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/distri_websever/target/distri_web-sever/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="distri_websever/web/Web" />
+    </root>
+  </artifact>
+</component>

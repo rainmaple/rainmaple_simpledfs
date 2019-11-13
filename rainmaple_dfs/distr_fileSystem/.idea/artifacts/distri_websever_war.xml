@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="distri_websever:war">
+    <output-path>$PROJECT_DIR$/distri_websever/target</output-path>
+    <root id="archive" name="distri_web-sever.war">
+      <element id="artifact" artifact-name="distri_websever:war exploded" />
+    </root>
+  </artifact>
+</component>
