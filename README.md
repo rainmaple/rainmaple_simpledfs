@@ -24,12 +24,12 @@
 
 4. 多个子节点，以及子节点同主节点之间的进程通信，包括心跳包的建立使用socket异步实现。传输内容校验的使用CRC完成校验。
 
-![分布式文件系统](/Users/rainmaple/Downloads/分布式文件系统.png)
+![分布式文件系统](assets/分布式文件系统.png)
 
 #### 使用说明
 
-1. 将项目导入 i􏰂dea 中
-2. 导入 m􏰁aven􏰄 依赖 
+1. 将项目导入idea中
+2. 导入maven依赖 或者执行指令 mvn clean package
 
 3.  为监控服务绑定Tomcat Server
 4. 分别按顺序运行distri_fileServer下的模块中cn.edu.ruc.adcourse.fileServer.FileServer_bootstrap.java 启动服务器
